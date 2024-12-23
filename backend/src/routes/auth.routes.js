@@ -9,4 +9,6 @@ router.post("/login", login);
 
 router.post("/logout", logout);
 
+router.post("/update-profile", updateProfile);
+
 export default router;
